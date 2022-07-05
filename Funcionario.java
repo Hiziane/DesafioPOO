@@ -80,6 +80,7 @@ public class Funcionario {
 			if (ano == anoContrato && 
 					mes == mesContrato)
 				soma += contrato.valorTotal();
+				
 		}
 		return soma;
 	}
